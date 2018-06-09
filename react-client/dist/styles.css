@@ -2,3 +2,17 @@ header {
   height: 11%;
   background-color: rgb(40, 60, 70);
 }
+
+#top {
+  height: 50%;
+}
+
+#hero-image {
+  width: 100%;
+}
+
+#header-graphic {
+  width: 50%;
+  margin-top: 2%;
+  position: absolute;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import TopSection from './components/TopSection.jsx';
 
 class Page extends React.Component {
   constructor(props) {
@@ -15,7 +16,7 @@ class Page extends React.Component {
   }
 
   render() {
-    return <p>Piazza</p>
+    return <TopSection />
   }
 }
 
