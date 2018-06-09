@@ -30,6 +30,15 @@ header {
   border-radius: 1%;
 }
 
+#companies-text {
+  top: 92%;
+  position: absolute;
+  padding: 1%;
+  padding-left: 3%;
+  width: 100%;
+  font-size: 16px;
+}
+
 #form-body {
   padding: 3%;
   height: 40%;
@@ -73,4 +82,39 @@ header {
 
 #interested-company {
   margin-top: 2%;
+}
+
+#company-logos {
+  width: 100%;
+  border-top: 8px solid rgb(250, 250, 250); 
+  border-bottom: 8px solid rgb(250, 250, 250);
+}
+
+#icon-row {
+  background-color: rgb(40, 60, 70);
+  width: 100%;
+}
+
+.icon-section {
+  width: 25%;
+  text-align: center;
+  border-right: 1px solid white;
+  padding: 2%;
+  display: inline-block;
+}
+
+.icon-header {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.icon {
+  width: 32%;
+  height: 20%;
+}
+
+.icon-description {
+  color: white;
+  text-align: left;
 }
