@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import BottomSection from './BottomSection.jsx'
 
 const MiddleSection = (props) => {
   return (
@@ -16,6 +17,7 @@ const MiddleSection = (props) => {
           )
         })}
       </div>
+      <BottomSection bigIcons={props.bigIcons} />
     </section>
   )
 }

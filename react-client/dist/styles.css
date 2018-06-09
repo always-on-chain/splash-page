@@ -118,3 +118,32 @@ header {
   color: white;
   text-align: left;
 }
+
+.iconbig-header {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.iconbig-section {
+  height: 65%;
+  position: relative;
+}
+
+.iconbig {
+  margin-bottom: 7%;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  margin-left: 1%;
+}
+
+.awareness-description {
+  width: 65%;
+  position: absolute;
+  left: 20%;
+  margin-top: 2%;
+}
+
+#iconbig2-section, #iconbig4-section {
+  background-color: rgb(240, 240, 240);;
+}
